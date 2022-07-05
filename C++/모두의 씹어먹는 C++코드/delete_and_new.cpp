@@ -12,24 +12,80 @@
 // delete 는 free 에 대응되는 것으로 메모리를 해제합니다. 
 
 
+// #include <iostream>
+
+// int main(void){
+
+//     int arr_size;
+//     std::cout << "input array size";
+//     std::cin >> arr_size;
+//     int *list = new int[arr_size];
+//     for(int i = 0 ; i < arr_size ; i++)
+//         std::cin >> list[i];
+//     for(int i =0; i < arr_size ;i++)
+//         std::cout << i << "th elements of list : " << list[i] << std::endl;
+    
+//     delete[] list;
+
+
+//     return 0;
+// }
+
+
+
+// 돌아온 마이펫 코드
+
 #include <iostream>
 
-int main(void){
 
-    int arr_size;
-    std::cout << "input array size";
-    std::cin >> arr_size;
-    int *list = new int[arr_size];
-    for(int i = 0 ; i < arr_size ; i++)
-        std::cin >> list[i];
-    for(int i =0; i < arr_size ;i++)
-        std::cout << i << "th elements of list : " << list[i] << std::endl;
+
+
+void Play(){
+
+
+
+}
+
+void ShowStat(){
+
+}
+
+
+struct Animal{
+    char name[30];
+    int age;
+    int health;
+    int food;
+    int clean;
+}Animal;
+
+void CreateAnimal(Animal *animal){
+    std::cout << "동물의 이름?" ;
+    std::cin >> ;
+
+
+
+}
+
+
+
+
+int main(){
     
-    delete[] list;
+
+
+    struct Animal *list[30] = new struct[]
+
+
 
 
     return 0;
 }
+
+
+
+
+
 
 
 
