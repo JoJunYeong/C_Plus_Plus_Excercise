@@ -40,13 +40,13 @@
 
 
 
-void play(){
+void Play(){
 
 
 
 }
 
-void show_stat(){
+void ShowStat(){
 
 }
 
@@ -58,6 +58,16 @@ struct Animal{
     int food;
     int clean;
 }Animal;
+
+void CreateAnimal(Animal *animal){
+    std::cout << "동물의 이름?" ;
+    std::cin >> ;
+
+
+
+}
+
+
 
 
 int main(){
