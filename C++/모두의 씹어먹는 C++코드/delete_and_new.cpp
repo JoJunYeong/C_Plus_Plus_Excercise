@@ -53,8 +53,7 @@ typedef struct Animal{
 
 
 void Play(Animal *animal){
-    std::cout << "바꿀 이름은?";
-    std::cin >> ani
+    animal->food +=
 
 
 }
