@@ -39,9 +39,21 @@
 
 
 
+// typedef를 사용하면 별칭을 사용할 수 있다.
+// 예를들면 아래 CreateAnimal에서 Animal *animal 이렇게 한 것과 같은 원리인 것 같다.
+// 아무래도 이 구조체를 계속 불러서 사용하다 보니까 별칭으로 지정해서 불러야 되는 경우가 생기는 것 같다.
+typedef struct Animal{
+    char name[30];
+    int age;
+    int health;
+    int food;
+    int clean;
+}Animal;
 
-void Play(){
 
+
+void Play(Animal *animal){
+    animal->food +=
 
 
 }
@@ -50,21 +62,16 @@ void ShowStat(){
 
 }
 
-
-struct Animal{
-    char name[30];
-    int age;
-    int health;
-    int food;
-    int clean;
-}Animal;
-
 void CreateAnimal(Animal *animal){
     std::cout << "동물의 이름?" ;
-    std::cin >> ;
-
-
-
+    std::cin >> animal->name;
+    std::cout << "동물의 나이?";
+    std::cin >> animal->age;
+    
+    animal->food = 100;
+    animal->health = 100;
+    animal->clean = 100;
+    
 }
 
 
@@ -72,7 +79,6 @@ void CreateAnimal(Animal *animal){
 
 int main(){
     
-
 
     struct Animal *list[30] = new struct[]
 
