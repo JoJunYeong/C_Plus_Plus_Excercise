@@ -1,8 +1,9 @@
-# C_Plus_Plus_Practice
+# Personal Computer Language Practice Repository
 
 
-This place is made for practice C++ by Jun.
+This repo has made for practice Computer Language by Jun.
 
+He need Git Because He is programming with various computers.
 
 
 
