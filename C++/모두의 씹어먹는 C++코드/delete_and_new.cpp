@@ -96,7 +96,6 @@ int main(){
         std::cout << "1. 동물 추가하기" << std::endl;
         std::cout << "2. 놀기" << std::endl;
         std::cout << "3. 상태보기" << std::endl;
-        
         int input = 0;
         std::cin >> input;
         int playWith = 0;
