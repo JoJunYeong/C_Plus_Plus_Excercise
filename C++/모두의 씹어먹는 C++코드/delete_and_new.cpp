@@ -53,12 +53,23 @@ typedef struct Animal{
 
 
 void Play(Animal *animal){
-    animal->food +=
-
-
+    animal->food -= 20;
+    animal->clean -= 30;
+    animal->health += 10;
 }
 
-void ShowStat(){
+void OneDayPass(Animal *animal){
+    animal->clean -= 20;
+    animal->food -= 30;
+    animal->health -= 10;
+}
+
+
+void ShowStat(Animal *animal){
+    std::cout << animal->name << "의 상태" << std::endl;
+    std::cout << "체력 :   " << animal -> health << std::endl;
+    std::cout << "배부름 :   " << animal -> food << std::endl;
+    std::cout << "청결 :     " << animal -> clean << std::endl;
 
 }
 
