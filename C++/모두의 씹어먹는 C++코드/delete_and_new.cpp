@@ -89,12 +89,52 @@ void CreateAnimal(Animal *animal){
 
 
 int main(){
-    
+    Animal *list[10];
+    int animalNum = 0;
 
-    struct Animal *list[30] = new struct[]
+    for(;;){
+        std::cout << "1. 물 추가하기" << std::endl;
+        std::cout << "2. 놀기" << std::endl;
+        std::cout << "3. 상태보기" << std::endl;
 
+        int input = 0;
+        std::cin >> input;
 
+        switch (input){
+            int playWith = 0;
+            case 1:
+                list[animalNum] = new Animal;
+                CreateAnimal(list[animalNum]);
+                animalNum++;
+                break;
 
+            case 2:
+                std::cout << "누구랑 놀게? : " ;
+                std::cin >> playWith;
+                
+                if(playWith < animalNum)
+                    Play(list[playWith]);
+                break;
+
+            case 3:
+                std::cout << "누구껄 보게? : " ;
+                std::cin >> playWith;
+
+                if(playWith < animalNum)
+                    ShowStat(list[playWith]);
+                break;
+            default :
+                break;
+
+        }
+
+        for(int i = 0 ; i < animalNum ; i++)
+            OneDayPass(list[i]);
+
+    }
+
+    for(int i = 0 ; i < animalNum ; i++)
+        delete list[i];
 
     return 0;
 }
