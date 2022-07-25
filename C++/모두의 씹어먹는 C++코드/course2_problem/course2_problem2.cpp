@@ -20,7 +20,13 @@ class Point {
   XPointReturn();
   YPointReturn();
 
- void Point::Point(int pos_x, int pos_y){
+ 
+
+ 
+};
+
+
+Point::Point(int pos_x, int pos_y){
     mX=pos_x;
     mY=pos_y;
  }
@@ -33,9 +39,6 @@ class Point {
     return mY;
  }
 
- 
-};
-
 class Geometry {
  public:
   Geometry() {
@@ -43,7 +46,7 @@ class Geometry {
   }
 
   void AddPoint(const Point &point) {
-    point_array[num_points ++] = new Point(point.mX, point.mY);
+    point_array[num_points ++] = new Point(point.XPointReturn(), point.YPointReturn());
   }
 
   // 모든 점들 간의 거리를 출력하는 함수 입니다.
@@ -60,17 +63,6 @@ private:
   Point* point_array[100];
   int num_points;
 
-  void Geometry::PrintDistance(){
-    for(int i = 0 ; i < num_points ; i++ ){
-        for(int j = i+1 ; j < num_points ; j++ ){
-            std::cout << point_array[i].
-        }
-    }
-  }
-
-  void Geometry::PrintNumMeets(){
-    
-  }
 
 
 
@@ -78,6 +70,17 @@ private:
 };
 
 
+  void Geometry::PrintDistance(){
+    for(int i = 0 ; i < num_points ; i++ ){
+        for(int j = i+1 ; j < num_points ; j++ ){
+            std::cout << ((point_array[i]->XPointReturn()-point_array[j]->XPointReturn())**2 + (point_array[i]->YPointReturn()-point_array[j]->YPointReturn())**2)**(1/2)
+        }
+    }
+  }
+
+  void Geometry::PrintNumMeets(){
+    
+  }
 
 
 
