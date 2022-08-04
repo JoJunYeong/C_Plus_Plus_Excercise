@@ -19,6 +19,11 @@ class Date {
   void ShowDate();
 };
 
+C++언어로 작성된 .cpp 파일을 GCC로 컴파일시 GCC가 .cpp 파일을 컴파일한 후 C 라이브러리로 링크하기 때문에
+
+링크에러가 발생할 수 있다.
+
+
 */
 #include <iostream>
 
@@ -29,6 +34,7 @@ class course1_problem {
 
  public:
   course1_problem();
+  ~course1_problem();
   
   void SetDate(int year, int month, int date);
   void AddDay(int inc);
