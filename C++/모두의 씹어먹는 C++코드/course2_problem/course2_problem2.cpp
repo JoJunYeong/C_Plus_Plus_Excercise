@@ -46,6 +46,35 @@ private:
   // 점 100 개를 보관하는 배열.
   Point* point_array[100];
   int num_points;
+
+void PrintDistance(){
+
+  for ( int i = 0 ; i < num_points ; i++) {
+    for ( int j = i+1 ; j < num_points ; j++) {
+      
+      Point* point1 = point_array[i];
+      Point* point2 = point_array[j];
+
+      int p1X = point1->GetX(), p1Y = point1->GetY();
+      int p2X = point2->GetX(), p2Y = point2->GetY();
+      int distance = ((p1X-p2X)^2 - (p1Y-p2Y)^2)^(1/2);
+
+      std::cout << distance << std::endl;
+
+    }
+  }
+ 
+
+}
+
+void PrintNumMeets(){
+
+
+
+}
+
+
+
 };
 
   
