@@ -2,17 +2,19 @@
 
 int main() {
 
-    Marine marine1(2,3);
-    Marine marine2(3,5);
+    Marine* marines[100];
+    
+    marines[0] = new Marine(2,3);
+    marines[1] = new Marine(3,5);
 
-    marine1.ShowStatus();
-    marine2.ShowStatus();
+    marines[0]->ShowStatus();
+    marines[1]->ShowStatus();
 
     std::cout << std::endl << "마린 1이 마린 2를 공격! " << std::endl;
-    marine2.BeAttacked(marine1.Attack());
+    marines[1]->BeAttacked(marines[0]->Attack());
 
-    marine1.ShowStatus();
-    marine2.ShowStatus();
+    marines[0]->ShowStatus();
+    marines[1]->ShowStatus();
 
     return 0;
 }
