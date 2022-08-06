@@ -16,5 +16,10 @@ int main() {
     marines[0]->ShowStatus();
     marines[1]->ShowStatus();
 
+
     return 0;
 }
+
+
+
+
