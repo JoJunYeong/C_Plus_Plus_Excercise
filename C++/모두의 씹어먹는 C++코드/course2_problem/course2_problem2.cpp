@@ -25,7 +25,6 @@ class Point {
  
 };
 
-
 Point::Point(int pos_x, int pos_y){
     mX=pos_x;
     mY=pos_y;
@@ -46,7 +45,7 @@ class Geometry {
   }
 
   void AddPoint(const Point &point) {
-    point_array[num_points ++] = new Point(point.XPointReturn(), point.YPointReturn());
+    point_array[num_points ++] = new Point(point.mX, point.mY);
   }
 
   // 모든 점들 간의 거리를 출력하는 함수 입니다.
