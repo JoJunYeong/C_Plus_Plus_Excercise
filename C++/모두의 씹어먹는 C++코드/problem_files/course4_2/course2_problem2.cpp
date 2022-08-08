@@ -21,6 +21,21 @@ class Point {
 
 };
 
+<<<<<<< HEAD:C++/모두의 씹어먹는 C++코드/problem_files/course4_2/course2_problem2.cpp
+=======
+Point::Point(int pos_x, int pos_y){
+    mX=pos_x;
+    mY=pos_y;
+ }
+
+ int Point::XPointReturn(){
+    return mX;
+ }
+
+ int Point::YPointReturn(){
+    return mY;
+ }
+>>>>>>> e0ff43a926c894d8d99fe4676cebd7ed0f11dc37:C++/모두의 씹어먹는 C++코드/course2_problem/course2_problem2.cpp
 
 class Geometry {
  public:
@@ -29,7 +44,11 @@ class Geometry {
   }
 
   void AddPoint(const Point &point) {
+<<<<<<< HEAD:C++/모두의 씹어먹는 C++코드/problem_files/course4_2/course2_problem2.cpp
     point_array[num_points ++] = new Point(point.GetX() , point.GetY());
+=======
+    point_array[num_points ++] = new Point(point.mX, point.mY);
+>>>>>>> e0ff43a926c894d8d99fe4676cebd7ed0f11dc37:C++/모두의 씹어먹는 C++코드/course2_problem/course2_problem2.cpp
   }
 
   // 모든 점들 간의 거리를 출력하는 함수 입니다.
