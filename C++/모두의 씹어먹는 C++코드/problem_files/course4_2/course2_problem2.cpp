@@ -22,7 +22,6 @@ class Point {
 };
 
 
-
 class Geometry {
  public:
   Geometry() {
