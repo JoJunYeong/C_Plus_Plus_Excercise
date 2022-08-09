@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 
 class string{
     char *mStr;
@@ -12,6 +13,6 @@ class string{
 
         void add_string(const string &s);   // str뒤에 s를 붙인다.
         void copy_string(const string &s);  // str뒤에 s를 복사한다.
-        int strlen();   // 문자열 길이 리턴
+        int strlen () const;   // 문자열 길이 리턴
 
 };
