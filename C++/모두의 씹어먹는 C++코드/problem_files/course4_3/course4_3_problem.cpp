@@ -38,7 +38,14 @@ string::~string(){
 
 void string::add_string(const string &s){
 
+    mLen = strlen() + s.strlen();
     char * tmp = new char[strlen() + s.strlen() -1 ];
+    strcpy(tmp,mStr);
+    strcat(tmp,s.mStr);
+    delete[] mStr;
+    mStr = new char[mLen+1];
+    strcpy(mStr,tmp);
+    delete[] tmp;
 
 }
 
