@@ -1,4 +1,4 @@
-// ±¸Á¶Ã¼ Æ÷ÀÎÅÍ
+// êµ¬ì¡°ì²´ í¬ì¸í„°
 
 #include <stdio.h>
 
@@ -7,6 +7,15 @@ struct test{
     int a,b;
 };
 
-
+int main(){
+    struct test st;
+    struct test *ptr;
+    ptr = &st;
+    ptr->a = 1;
+    ptr->b = 2;
+    printf("st ì˜ a ë©¤ë²„ : %d \n", st.a);
+    printf("st ì˜ b ë©¤ë²„ : %d \n", st.b);
+    return 0;
+}
 
 
