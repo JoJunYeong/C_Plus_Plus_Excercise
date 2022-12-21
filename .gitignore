@@ -1,0 +1,8 @@
+
+
+### setting files ###
+
+setting.*
+tasks.*
+.vscode/settings.json
+.vscode/tasks.json
