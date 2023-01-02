@@ -62,6 +62,14 @@ void MyString::print() const{
     std::cout << std::endl;
 }
 
+void MyString::println() const {
+    for(int i =  0 ; i != string_length ; i++){
+        std::cout << string_content[i];
+    }
+    std::cout << std::endl;
+}
+
+
 char& MyString::operator[](const int index) {return string_content[index]; }
 
 int main(){
