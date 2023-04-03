@@ -1,0 +1,140 @@
+JoJunYeong (105):
+      Initial commit
+      Update README.md
+      Update README.md
+      Update README.md
+      Add files via upload
+      Reference(참조자)
+      mac test commit
+      Merge branch 'main' of https://github.com/JoJunYeong/C_Plus_Plus_Practice
+      Merge pull request #1 from JoJunYeong/master
+      c++ file into their folder
+      python coding test practice code upload
+      Merge pull request #2 from JoJunYeong/master
+      c++ 2nd day of study
+      Merge pull request #3 from JoJunYeong/master
+      change file name
+      Merge pull request #4 from JoJunYeong/master
+      VR Project init
+      Merge pull request #5 from JoJunYeong/master
+      VR Project init
+      tmp
+      Merge branch 'main' of https://github.com/JoJunYeong/C_Plus_Plus_Practice
+      제작중
+      Merge branch 'master' of https://github.com/JoJunYeong/C_Plus_Plus_Practice
+      working
+      Merge pull request #6 from JoJunYeong/master
+      tmp store
+      tmp
+      Merge pull request #7 from JoJunYeong/master
+      tmp
+      Merge pull request #8 from JoJunYeong/master
+      new and delete 예제코드
+      Merge pull request #9 from JoJunYeong/master
+      delete and new 예제코드 update
+      Merge pull request #10 from JoJunYeong/master
+      Update README.md
+      Update README.md
+      test
+      test
+      course1 start
+      객체와 클래스 개념 학습
+      git practice(report-card.pdf)
+      git practice2 (report_card.c)
+      report_card(change report_card.c file)
+      git practice4 (change report_card.c file)
+      git practice5(change report_card.c file)
+      git practice6 (change report_card.c file)
+      git practice6 (change report_card.c file)
+      asdsddd
+      Merge branch 'master' of https://github.com/JoJunYeong/Practice
+      tmp
+      file delete and add
+      course2 2번째 문제 푸는 중
+      문제 2 푸는중
+      test.exe 변경 및 course2_Overloading 변경 업데이트
+      mac book
+      rebase of main
+      delete master branch and create macbook branch
+      const 붙은 멤버변수를 수정하지 않는다는 것을 GetX와 GetY에서 보장해주기 위해 함수에 const를 붙여넣는다.
+      const 붙은 멤버변수를 수정하지 않는다는 것을 GetX와 GetY에서 보장해주기 위해 함수에 const를 붙여넣는다.
+      PrintDistance 함수 작성 완료
+      before merge to main
+      before merge with macbook
+      file directory 정리
+      마린 시작 파일 만듦 컴파일 해서 test.out 만들어서 실행시켜보센
+      problem 폴더 내부 파일명 코스번호  명확하게 수정
+      test
+      파일 경로 바꿈
+      4-3코스 마린생성까지 완료 후 복사생성자 포토캐논 파일만듦
+      this->x = x 를 this->x =pos_x 로 정정함
+      commit before rebase
+      commit before rebase
+      Merge branch 'LGcomputer' of https://github.com/JoJunYeong/Practice into LGcomputer
+      conflict resolved
+      make LGcomputer uptodate
+      resolved problem
+      class 4_3 생각해보기 문제 틀까지만 만듦
+      4_3생각해보기 완료 아직 댓글보고 답 맞는지 확인 전
+      LGcomputer에서 신입사원기간에 작업한 내용 불러오기 전 macbook 작업내용 저ㅏㅇ
+      LGcomputer에서 신입사원기간에 작업한 내용 불러오기 전 macbook 작업내용 저ㅏㅇ
+      4-3 댓글 보고 답 맞춰봄
+      Merge branch 'macbook' of https://github.com/JoJunYeong/C_Plus_Plus_Practice into macbook
+      4_4(1)이 끝남 이제 static변수를 만들어서 4_4(2)파일 진도나가면 됨
+      클래스의 static변수와 static함수에 대한 공부 완료
+      4_4강 완료
+      string class만들기에서 assign 함수 들어가기 전까지 함.
+      assign함수까지 진도를 나감 다음으로 insert함수 파일 만들고 나가면 됨
+      macbook setting commit
+      Merge branch 'main' of https://github.com/JoJunYeong/C_Plus_Plus_Practice
+      12-2 상수 포인터에 대해 학습
+      12-3배열 이름의 주소값 코드만 따라 적어 놓음
+      13-2 배열을 인자로 전달 전까지 함
+      13-2강 생각해보기 1번까지 함
+      Merge branch 'macbook' of https://github.com/JoJunYeong/C_Plus_Plus_Practice into macbook
+      Merge branch 'LGcomputer'
+      15-3강까지 진도 완료함 이제 도서관리 프로그램 만들 차례
+      구조체 포인터 전까지 함
+      오류수정
+      Merge branch 'macbook'
+      구조체, 공용체, 열거형 해서 16단원까지 학습완료
+      Merge branch 'macbook' 이 Merge가 필요한 이유는 Macbook branch에서 C언어 학습을 16강까지 끝냈기 때문입니다. 근데 왜 내가 Merge명령을 내리는 것이 갑자기 conform이 필요한 일이 되었는지 모르겠습니다. 나는 본 계정의 관리자 입니다. 아 설마 지금 세팅까지 동기화되서 나 지금 LG연구원으로 등록되어져 있는거야? 그래서 Merge할 때마다 검사받아야 되는거야? 진짜ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 그거면 레전드다 지금 Merge요청 올리고 바로 가서 확인해보아야겠다.
+      17단원 지역변수, 전역변수, 정적변수까지 학습완료
+      Merge branch 'macbook' 그래서 이 메세지는 어떻게 보내는 건데?
+      18-1단원 파일 모듈화 완료 다음으로 18-2할 차례
+      Merge branch 'main' of https://github.com/JoJunYeong/C_Plus_Plus_Practice
+      18강까지 학습완료
+
+Jun (15):
+      Update README.md
+      Update README.md
+      Merge pull request #12 from JoJunYeong/master
+      Merge branch 'main' into master
+      Merge pull request #13 from JoJunYeong/master
+      Merge pull request #14 from JoJunYeong/master
+      Merge pull request #15 from JoJunYeong/master
+      Merge pull request #16 from JoJunYeong/LGcomputer
+      Merge pull request #17 from JoJunYeong/LGcomputer
+      Merge pull request #18 from JoJunYeong/LGcomputer
+      Merge pull request #19 from JoJunYeong/LGcomputer
+      Merge pull request #20 from JoJunYeong/LGcomputer
+      Merge pull request #21 from JoJunYeong/LGcomputer
+      Merge pull request #22 from JoJunYeong/macbook
+      Merge pull request #23 from JoJunYeong/macbook
+
+조준영/연구원/BroadcastingJun.joMedia Unit(jun.jo@lge.com) (14):
+      configuration파일 LGcomputer가 컴파일 가능하도록 경로 추가
+      course1 problem solved
+      add C Folder
+      Merge branch 'LGcomputer'
+      상수포인터부터 하면 됨
+      Merge branch 'LGcomputer'
+      파일명 C++ study폴더에 course4_3(1)을 course4_3으로 모두 바꿈
+      Merge branch 'main' into macbook
+      씹어먹는C언어 13-3강까지 완료 후 1번 완료
+      14강 디버그 하는 중
+      json 파일 조금 변경하고 디버그 단원까지 학습 완료 하지만 디버그 vs code에서 할 수 있도록 해놓는게 좋을 것 같다. 디버그 설정하다가 결국 못함.
+      C언어 15-1강까지 완료함
+      18-3 파일 만들고 작성중
+      오류났던거 수정함
+
