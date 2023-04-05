@@ -9,10 +9,9 @@
 */
 
 #include <iostream>
-#include <cstdio>
 #include <deque>
 
-void InsertionSort(std::deque <int> &deq){
+void insertionSort(std::deque <int> &deq){
 
     for(int i = 1 ; i < deq.size() ; i++){
         int key = deq[i];
@@ -26,6 +25,16 @@ void InsertionSort(std::deque <int> &deq){
 }
 
 
+int main() {
+    std::deque <int> deq = {8, 4, 3, 7, 6};
+    insertionSort(deq);
+
+    for (int i = 0; i < deq.size(); i++) {
+        std::cout << deq[i] << " ";
+    }
+
+    return 0;
+}
 
 
 
