@@ -51,6 +51,9 @@ int main(int argc, char** argv){
     testing::TestEventListeners& listeners = testing::UnitTest::GetInstance()->listeners();
     listeners.Append(new MyTestEventListener);
 
+    // google test의 기본 프린터를 제거할 수 있습니다.
+    delete listeners.Release(listeners.default_result_printer());
+
     return RUN_ALL_TESTS();
 }
 
