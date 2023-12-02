@@ -1,2 +1,1 @@
-score=[]
-test_score=[]
+, axis=1
