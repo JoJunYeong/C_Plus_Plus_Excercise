@@ -1,2 +1,5 @@
-mshow(fruits[100], cmap='gray_r')
-# axs[1].imsho
+model = model_fn()
+# model.summary()
+# model.compile(loss='sparse_categorical_crossentropy', metrics='accuracy')
+# history = model.fit(train_scaled, train_target, epochs=20, verbose=0)
+# print(history.history.keys())
