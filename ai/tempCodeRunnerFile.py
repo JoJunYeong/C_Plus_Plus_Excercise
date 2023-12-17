@@ -1,5 +1,3 @@
-model = model_fn()
-# model.summary()
-# model.compile(loss='sparse_categorical_crossentropy', metrics='accuracy')
-# history = model.fit(train_scaled, train_target, epochs=20, verbose=0)
-# print(history.history.keys())
+onv_weights.reshape(-1, 1))
+# plt.xlabel('weight')
+# plt.ylabel('count')
